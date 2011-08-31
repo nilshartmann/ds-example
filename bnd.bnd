@@ -1,0 +1,17 @@
+-runbundles: osgi.cmpn,\
+	org.apache.felix.scr,\
+	org.apache.felix.shell,\
+	org.apache.felix.shell.tui,\
+	org.apache.felix.metatype,\
+	org.mc.customer.api;version=latest,\
+	org.apache.felix.fileinstall,\
+	org.apache.felix.configadmin,\
+	org.h2
+-runfw: org.apache.felix.framework
+-buildpath: osgi.core,\
+	osgi.cmpn,\
+	biz.aQute.bnd.annotation,\
+	junit.osgi,\
+	org.mc.customer.api;version=latest,\
+	org.apache.felix.metatype
+-sub: *.bnd

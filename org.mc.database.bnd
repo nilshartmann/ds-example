@@ -1,0 +1,5 @@
+Service-Component: *
+Export-Package: org.mc.database
+Private-Package: org.mc.database.internal,\
+	aQute.bnd.annotation.metatype
+Import-Package: org.h2
